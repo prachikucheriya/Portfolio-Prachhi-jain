@@ -4,7 +4,7 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { ExternalLink, FolderOpen, Lock } from "lucide-react";
 
-const upcomingProjects = [
+const projects = [
   {
     title: "Solar Dashboard UI",
     category: "Design System",
@@ -29,6 +29,22 @@ const upcomingProjects = [
       "Curated collection of web design work for Dwarkamai foundation and construction.",
     url: "https://dwarkamai-foundation.netlify.app/",
   },
+  {
+    title: "Petrol Pump Staff Management",
+    category: "Web App",
+    status: "Live",
+    description:
+      "FuelStaff dashboard for petrol pump staff scheduling, attendance, and day-to-day operations.",
+    url: "https://prachikucheriya-petrolpal-dash.petrolpump.workers.dev/",
+  },
+  {
+    title: "PM Surya Ghar Portal Guide",
+    category: "IoT / Documentation",
+    status: "Coming Soon",
+    description:
+      "Step-by-step field guide for national portal sync, DISCOM workflows, and RMS troubleshooting.",
+    url: null,
+  },
 ];
 
 export default function Portfolio() {
@@ -49,16 +65,16 @@ export default function Portfolio() {
             04 — Portfolio
           </span>
           <h2 className="font-[family-name:var(--font-syne)] text-4xl sm:text-5xl font-bold tracking-tight">
-            Work in <span className="text-gradient">progress</span>
+            Selected <span className="text-gradient">work</span>
           </h2>
           <p className="text-muted mt-4 max-w-xl">
-            Project showcases are being curated. Check back soon for case
-            studies, design work, and technical deep-dives.
+            Live projects across solar IoT, UI/UX, and operations tooling — plus
+            new work on the way.
           </p>
         </motion.div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {upcomingProjects.map((project, i) => (
+          {projects.map((project, i) => (
             <motion.div
               key={project.title}
               initial={{ opacity: 0, y: 30 }}
@@ -110,17 +126,6 @@ export default function Portfolio() {
             </motion.div>
           ))}
         </div>
-
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={inView ? { opacity: 1 } : {}}
-          transition={{ delay: 0.6 }}
-          className="mt-12 text-center"
-        >
-          <p className="text-sm text-muted font-mono">
-            Full portfolio launching Q2 2026
-          </p>
-        </motion.div>
       </div>
     </section>
   );
