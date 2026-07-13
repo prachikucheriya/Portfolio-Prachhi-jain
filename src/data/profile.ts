@@ -33,8 +33,7 @@ Today I specialize in RMS monitoring, IoT connectivity, and national portal sync
   ],
   experience: [
     {
-      company:
-        "Novatrice Technologies Pvt Ltd (Sister concern of HKRP Innovations Limited)",
+      company: "Rite Water Solutions (India) Pvt. Ltd.",
       role: "IT Support Executive",
       period: "Apr 2025 — Dec 2025",
       location: "India",
@@ -72,7 +71,8 @@ Today I specialize in RMS monitoring, IoT connectivity, and national portal sync
       ],
     },
     {
-      company: "Rite Water Solutions (India) Pvt. Ltd.",
+      company:
+        "Novatrice Technologies Pvt Ltd (Sister concern of HKRP Innovations Limited)",
       role: "IT Support Executive",
       period: "Feb 2018 — Mar 2020",
       location: "India",
