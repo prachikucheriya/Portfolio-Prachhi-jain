@@ -39,7 +39,7 @@ Today I specialize in RMS monitoring, IoT connectivity, and national portal sync
       location: "India",
       duration: "9 months",
       highlights: [
-        "Synced rooftop solar RMS data with the national portal",
+        "Synced with the national portal",
         "Troubleshot RMS integration and related connectivity issues",
         "Worked with Innover portal, MSEDCL portal, and HKRP portal",
       ],
@@ -51,7 +51,7 @@ Today I specialize in RMS monitoring, IoT connectivity, and national portal sync
       location: "Raipur, Chhattisgarh",
       duration: "4 months",
       highlights: [
-        "Synced rooftop solar RMS data with the national portal",
+        "Synced with the national portal",
         "Troubleshot RMS integration and related connectivity issues",
         "Worked with Innover portal, MSEDCL portal, and HKRP portal",
       ],
