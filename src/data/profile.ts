@@ -1,0 +1,146 @@
+export const profile = {
+  name: "Prachhi Jain",
+  title: "IoT Support Executive",
+  tagline: "Solar RMS · PM Surya Ghar · DISCOM Integration",
+  location: "Jalgaon, Maharashtra, India",
+  email: "jainprachi0385@gmail.com",
+  linkedin: "https://www.linkedin.com/in/prachhi-jain-42b1833a7",
+  about: `A technology professional with over a decade of experience spanning academia, design, and IoT operations. From teaching computer science fundamentals to building responsive web interfaces and managing rooftop solar monitoring systems at scale — I bring precision, persistence, and a systems-thinking mindset to every role.
+
+Today I specialize in RMS monitoring, IoT connectivity, and national portal synchronization aligned with India's PM Surya Ghar scheme — bridging DISCOM integrations, MSEDCL workflows, and real-world field operations.`,
+  careerObjective:
+    "Currently seeking a role as an Insurance Underwriter or a Solar Remote Monitoring System (RMS) Executive.",
+  currentStatus:
+    "My most recent role was as a Solar RMS Executive, which concluded in October 2025. I am now open to new opportunities and bring a strong grasp of both insurance underwriting principles and solar monitoring systems.",
+  additionalContext: [
+    "Strong understanding of insurance underwriting principles, including risk assessment fundamentals, policy evaluation, and documentation accuracy — developed alongside a background in accounting, taxation, and systems administration.",
+    "Deep, hands-on expertise in solar Remote Monitoring Systems (RMS): rooftop solar IoT connectivity, inverter/data-logger troubleshooting, and real-time performance monitoring dashboards.",
+    "Proven track record synchronizing field data with national government portals (PM Surya Ghar scheme) and DISCOM/MSEDCL systems, ensuring accuracy for subsidy processing and compliance reporting.",
+    "Combines analytical rigor (from tax law, accounting, and IT administration education) with meticulous operational execution — a natural fit for underwriting work that demands careful evaluation of risk and detail.",
+  ],
+  skills: [
+    "IoT Troubleshooting",
+    "Solar RMS Monitoring",
+    "DISCOM Integration",
+    "PM Surya Ghar Portal Sync",
+    "MSEDCL Systems",
+    "UI/UX Design",
+    "Responsive Web Design",
+    "Figma & Adobe XD",
+    "Cross-browser QA",
+    "Online Teaching",
+    "Tally ERP",
+  ],
+  experience: [
+    {
+      company: "Right Water Private Limited",
+      role: "IoT / IT Support Executive",
+      period: "Apr 2025 — Dec 2025",
+      location: "Nagpur",
+      duration: "9 months",
+      highlights: [
+        "Managed RMS monitoring and IoT connectivity for rooftop solar systems",
+        "Synchronized data with national portals per PM Surya Ghar requirements",
+        "Coordinated with MSEDCL and DISCOM portals for asset management",
+        "Resolved integration issues affecting subsidy and reporting workflows",
+      ],
+    },
+    {
+      company: "PV Power Technologies Pvt Ltd",
+      role: "IoT / IT Support Executive",
+      period: "Dec 2024 — Mar 2025",
+      location: "Raipur, Chhattisgarh",
+      duration: "4 months",
+      highlights: [
+        "Managed RMS monitoring and IoT connectivity for rooftop solar systems",
+        "Handled national portal data synchronization for PM Surya Ghar",
+        "Worked with MSEDCL and DISCOM portals for system data management",
+        "Resolved data mismatch issues in subsidy reporting pipelines",
+      ],
+    },
+    {
+      company: "Webrock Media",
+      role: "Jr Web Designer",
+      period: "May 2021 — Sep 2024",
+      location: "Jaipur",
+      duration: "3 yrs 5 mos",
+      highlights: [
+        "Created wireframes, sketches, and high-fidelity mockups for web & mobile",
+        "Designed custom icons, banners, and optimized imagery across platforms",
+        "Built responsive layouts for desktop, tablet, and mobile viewports",
+        "Developed interactive prototypes in Figma and Adobe XD",
+        "Performed cross-browser QA and visual bug resolution before launch",
+      ],
+    },
+    {
+      company: "Novatrice Technologies Pvt Ltd",
+      role: "IoT / IT Support Executive",
+      period: "Feb 2018 — Mar 2020",
+      location: "Ahmedabad",
+      duration: "2 yrs 2 mos",
+      highlights: [
+        "Managed RMS monitoring and IoT connectivity for rooftop solar systems",
+        "Synchronized data with national portals per PM Surya Ghar requirements",
+        "Coordinated with MSEDCL and DISCOM portals for asset management",
+        "Resolved integration issues affecting subsidy and reporting workflows",
+      ],
+    },
+    {
+      company: "Raosaheb Rupchand College",
+      role: "Assistant Professor — Computer Science",
+      period: "Jun 2013 — May 2018",
+      location: "Jalgaon",
+      duration: "5 years",
+      highlights: [
+        "Led lessons on computer skills, keyboard techniques, and internet use",
+        "Collaborated on curriculum planning and technology integration",
+        "Created assessments to measure student progress and knowledge",
+      ],
+    },
+    {
+      company: "Sw. Rupeshkumar Ingole College",
+      role: "Assistant Professor — Computer Science",
+      period: "Jun 2009 — May 2013",
+      location: "Yavatmal",
+      duration: "4 years",
+      highlights: [
+        "Planned and delivered foundational computer science coursework",
+        "Designed assignments and tests aligned with lecture materials",
+        "Partnered with faculty on curriculum and classroom technology",
+      ],
+    },
+  ],
+  education: [
+    {
+      degree: "M.Phil — Computer & IT Administration",
+      school: "Vinayaka Mission's Research Foundation",
+      period: "2008 — 2011",
+    },
+    {
+      degree: "M.C.M — Computer & IT Management",
+      school: "CMCS College, Yavatmal",
+      period: "2006 — 2008",
+    },
+    {
+      degree: "D.Tax — Tax Law & Taxation",
+      school: "Amalokchand Mahavidyalaya, Yavatmal",
+      period: "2005 — 2006",
+    },
+    {
+      degree: "B.Com — Accounting & Taxation",
+      school: "Amalokchand Mahavidyalaya, Yavatmal",
+      period: "2002 — 2005",
+    },
+    {
+      degree: "HSC — Accounting & Taxation",
+      school: "Amalokchand Mahavidyalaya, Yavatmal",
+      period: "2000 — 2002",
+    },
+  ],
+  stats: [
+    { label: "Years Experience", value: "15+" },
+    { label: "Roles", value: "6" },
+    { label: "Domains", value: "3" },
+    { label: "Degrees", value: "5" },
+  ],
+};
